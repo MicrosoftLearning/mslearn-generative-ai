@@ -36,9 +36,10 @@ Before you can use Azure OpenAI models, you must provision an Azure OpenAI resou
 
 Now you're ready to deploy a model to use through the **Azure OpenAI Studio**. Once deployed, you will use the model to generate natural language content.
 
-1. On the **Overview** page for your Azure OpenAI resource, use the **Explore** button to open Azure OpenAI Studio in a new browser tab. Alternatively, navigate to [Azure OpenAI Studio](https://oai.azure.com/?azure-portal=true) directly.
+1. On the **Overview** page for your Azure OpenAI resource, use the **Explore** button to open Azure OpenAI Studio in a new browser tab. Alternatively, navigate to [Azure OpenAI Studio](https://oai.azure.com/) directly.
 2. In Azure OpenAI Studio, create a new deployment with the following settings:
-    - **Model name**: gpt-35-turbo
+    - **Model**: gpt-35-turbo
+    - **Model version**: Auto-update to default
     - **Deployment name**: 35turbo
 
 > **Note**: Each Azure OpenAI model is optimized for a different balance of capabilities and performance. We'll use the **3.5 Turbo** model series in the **GPT-3** model family in this exercise, which is highly capable for natural language generation and chat scenarios.
@@ -47,7 +48,7 @@ Now you're ready to deploy a model to use through the **Azure OpenAI Studio**. O
 
 Let's see how the model behaves in a conversational interaction.
 
-1. In [Azure OpenAI Studio](https://oai.azure.com/?azure-portal=true), navigate to the **Chat** playground in the left pane.
+1. In [Azure OpenAI Studio](https://oai.azure.com/), navigate to the **Chat** playground in the left pane.
 1. In the **Assistant setup** section at the top, select the **Default** system message template.
 1. In the **Chat session** section, enter the following prompt.
 
