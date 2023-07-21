@@ -22,7 +22,7 @@ You need a personal Microsoft account. If you do not have one, go to [signup.liv
 
 1. Type in a prompt: `What are 3 pros and cons of traveling in the winter?`. You will see a *Searching for:...* and *Generating...* appear before the response. The model uses the searched for responses as grounding information to generate original responses. Notice that the end of the response contains links to its sources. 
 
-![A screenshot of Bing copilot's response to a traveling prompt with three bullets for pros and three bullets for cons.](../media/bing-copilot-response-traveling.html) 
+![A screenshot of Bing copilot's response to a traveling prompt with three bullets for pros and three bullets for cons.](..media/bing-copilot-response-traveling.png) 
 
 **Note**: If you do not see a **Generating...* message or a bullet list response, you have not gotten to see Bing Copilot in action yet. You need to return to the sign-in menu and connect the current account you are using with a personal account. 
  
